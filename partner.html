@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Partner with us | QuickBite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="partner">
+    <div id="site-header"></div>
+
+    <main class="container offers-page">
+        <h1>Partner with us</h1>
+        <p style="color: var(--text-muted); line-height: 1.7; max-width: 800px; margin-bottom: 40px;">
+            Grow your restaurant business with QuickBite. Get access to millions of hungry customers,
+            real-time analytics, and fast delivery support — all with zero upfront cost.
+        </p>
+
+        <div class="partner-benefits">
+            <div class="benefit-card">
+                <i class="ph ph-users-three"></i>
+                <h3>Millions of customers</h3>
+                <p>Instantly reach a massive, hungry audience across 500+ cities in India.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="ph ph-chart-line-up"></i>
+                <h3>Real-time analytics</h3>
+                <p>Track orders, customer trends, and revenue with our partner dashboard.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="ph ph-truck"></i>
+                <h3>Delivery support</h3>
+                <p>Our delivery partners handle logistics so you can focus on the food.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="ph ph-wallet"></i>
+                <h3>Weekly payouts</h3>
+                <p>Transparent earnings credited directly to your bank every week.</p>
+            </div>
+        </div>
+
+        <section class="partner-cta">
+            <h2>Ready to grow with QuickBite?</h2>
+            <p>Sign up in minutes. No setup fees. No hidden charges.</p>
+            <form id="partnerForm" class="partner-form" novalidate>
+                <div class="form-group">
+                    <input type="text" id="restaurantName" placeholder="Restaurant Name" maxlength="80" required>
+                    <div class="form-error" id="restaurantNameError"></div>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="partnerPhone" placeholder="Phone Number" maxlength="10" required>
+                    <div class="form-error" id="partnerPhoneError"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="partnerCity" placeholder="City" maxlength="40" required>
+                    <div class="form-error" id="partnerCityError"></div>
+                </div>
+                <button type="submit" class="auth-btn">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <div id="site-modals"></div>
+    <script src="script.js"></script>
+</body>
+</html>
