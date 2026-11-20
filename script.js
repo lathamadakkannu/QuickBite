@@ -354,7 +354,7 @@ const foodMenus = {
         { name: "Paneer Butter Masala", price: 249, veg: true, image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&q=80&w=400" },
         { name: "Veg Fried Rice", price: 199, veg: true, image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=400" },
         { name: "Butter Naan", price: 49, veg: true, image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&q=80&w=400" },
-        { name: "Gulab Jamun", price: 99, veg: true, image: "https://images.unsplash.com/photo-1601303516361-4b08b9c5c6a9?auto=format&fit=crop&q=80&w=400" }
+        { name: "Gulab Jamun", price: 99, veg: true, image: "https://media.istockphoto.com/id/1195386909/photo/gulab-jamun-indian-dessert-or-sweet-dish-in-bowl-with-spoon.jpg?s=1024x1024&w=is&k=20&c=0uJaaWSRQDO0ww7zgcmai1fWSLIAD4pXTPN-M2ipc68=" }
     ]
 };
 
